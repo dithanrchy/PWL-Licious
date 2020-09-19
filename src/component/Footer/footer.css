@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url('../Fonts/Inconsolata.otf');
+}
+
+.disc {
+    font-family: 'Inconsolata';
+    font-size: 15px;
+    text-align: center;
+}

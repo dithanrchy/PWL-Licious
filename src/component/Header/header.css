@@ -1,0 +1,20 @@
+.text_atas{
+    background-color: #F2D5C9;
+    padding-top: 18px;
+    padding-bottom: 5px;
+    margin: auto;
+    font-family: 'inconsolata';
+    vertical-align: center;
+    position: sticky;
+    font-family: Inconsolata;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    /* position: -webkit-sticky; */
+  }
+
+  @font-face {
+    font-family: "Inconsolata";
+    src: url('../Fonts/Inconsolata.otf');
+  }

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "lato";
+    src: url('../../component/Fonts/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: "gotham";
+    src: url('../../component/Fonts/GothamBold.woff');
+}
+
+@font-face {
+    font-family: "lato-italic";
+    src: url('../../component/Fonts/Lato-HeavyItalic.ttf');
+}
+
+.eded {
+    background-color: #4DCCBD;
+    font-family: 'gotham';
+    text-decoration: none;
+    /* border: 2px solid;  */
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: black;
+    float: left;
+    height: 35px;
+    margin-top: 8px;
+    margin-left: 80%;
+}
+.eded:hover {
+    background-color: #F2D5C9;
+    border: 2px solid #F2D5C9;
+}
+.divprof{
+    padding-top: 100px;
+    width: 700px;
+  margin: auto;
+  padding: 10px;
+    border-radius: 2px;
+    background-color: #F2D5C9;
+    display: block;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 680px;
+    height: 10px;
+    background: #F5E9E2;
+    margin-bottom: 10px;
+}
+.pmenu{
+    text-align :"left";
+    font-size: 100%;
+    width: 50%;
+    font-family: 'gotham';
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.label{
+    font-family: 'lato-italic';
+    color: #949794;
+}
+.isidata{
+    font-family: 'lato';
+    text-align : "left";
+    margin-top: 10px;
+    color: black;
+}

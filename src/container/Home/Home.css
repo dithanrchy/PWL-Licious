@@ -1,0 +1,80 @@
+/* HOME */
+.newdiv{
+    display: block;
+    z-index: 1;
+}
+
+body{
+    background-color: #F5E9E2;
+}
+
+/* SLIDESHOW */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 450px;
+  line-height: 160px;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.slide-img{
+  width: 70%;
+  height: 450px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+/* #Homebox */
+.ikonhome {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.thome{
+  font-family: 'lato';
+}
+.tdhome {
+  width: 440px;
+  height: 300px;
+  text-align: center;
+  text-align: center;
+}
+.b1{
+  background-color: #4DCCBD;
+  text-decoration: none;
+  padding: 7px 30px;
+  border-radius: 7px;
+  font-family : 'gotham';
+  border: solid;
+  border-color: #4DCCBD;
+}
+.b1:hover{
+padding: 9px 30px;
+}
+.b2{
+  background-color: #F2D5C9;
+  text-decoration: none;
+  padding: 7px 30px;
+  border-radius: 7px;
+  font-family : 'gotham';
+  border: solid;
+  border-color: #F2D5C9;
+}
+.b2:hover{
+padding: 9px 30px;
+}
+@font-face{
+  font-family: "lato";
+  src: url('../../component/Fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url('../../component/Fonts/GothamBold.woff');
+}
+

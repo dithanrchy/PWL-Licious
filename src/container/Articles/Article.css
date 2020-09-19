@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "gotham";
+  src: url('../../component/Fonts/GothamBold.woff');
+}
+
+@font-face {
+  font-family: "lato";
+  src: url('../../component/Fonts/Lato-Regular.ttf');
+}
+/* ARTICLE */
+.artab {
+    width: 1000px;
+    padding: 50px;
+  }
+  .artitle{
+    color: #949794;
+    font-size: 25px;
+    font-family: 'gotham';
+  }
+  .arimg{
+    float: left;
+    width: 400px;
+    height: 200px;
+  }
+  .arimg2{
+    text-align: center;
+    width: 400px;
+    height: 200px;
+  }
+  .arisi{
+    color: #949794;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'lato';
+  }
+  .armore {
+    font-family: 'lato-italic';
+    text-decoration: none;
+    background-color: #c1c7d3;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #949794;
+    padding: 7px 30px;
+    color: black;
+    float: right;
+  }
+  .arlist {
+    float: left;
+    width: 60px;
+    height: 60px;
+  }
+  .arkind {
+    font-size: 30px;
+    color: #4DCCBD;
+    font-family: 'gotham-medium';
+    vertical-align: middle;
+  }
+  .armany{
+    font-family: 'inconsolata';
+    text-decoration: none;
+    background-color: #4DCCBD;
+    /* border: 2px solid;  */
+    border-radius: 2px;
+    border-color: #4DCCBD;
+    padding: 7px 30px;
+    color: black;
+    float: left;
+  }
+  
+/* SHOWARTICLE */
+.divShow{
+  width: 90%;
+	height:  auto;
+	background: rgba(0,0,0, 0.1);
+	/* padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+  padding-left: 10px; */
+  margin: auto;
+}
+
+.h5kecilbaru {
+  /* text-align: center; */
+  font-family: 'gotham';
+  font-size: 30px;
+  /* float: left; */
+  margin: auto;
+  text-align: center;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  color: #FF934F;
+  padding: 0%;
+  /* float: left; */
+  margin: 80px auto;
+  /* padding-left: 10%; */
+  color: #FF934F;
+}
+
+.textArtikel{
+  font-family: 'lato';
+  color: black;
+  text-align: justify;
+}
+
+.tdShow {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.tdShow tr{
+  text-align: justify;
+}
+
+.BacktoArt {
+  float: right;
+  position: relative;
+  top: 0px;
+  font-family: "gotham";
+  text-decoration: none;
+  font-size: 15px;
+  background: #4DCCBD;
+  padding: 5px 10px;
+  margin-left: 0 0 0 0;
+  border: 1px solid #949794;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 0px #949794;
+  -moz-box-shadow: 0px 5px 0px #949794;
+  -ms-box-shadow: 0px 5px 0px #949794;
+  -o-box-shadow: 0px 5px 0px #949794;
+  box-shadow: 0px 5px 0px #949794;
+  color: #222;
+  text-shadow: 1px 1px 1px #fff;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
+  margin-left: 610px;
+}
+.BacktoArt :active {
+  position: relative;
+  top: 5px;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-transition: All 250ms ease;
+  -moz-transition: All 250ms ease;
+  -o-transition: All 250ms ease;
+  -ms-transition: All 250ms ease;
+  transition: All 250ms ease;
+}

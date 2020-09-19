@@ -1,0 +1,73 @@
+/* ABOUT US YG BARU */
+/* @import 'antd/dist/antd.css'; */
+.isifaq{
+  font-family: 'gotham';
+  text-align: center;
+  font-size: x-large;
+  }
+  
+@font-face {
+  font-family: "gotham";
+  src: url('../../component/Fonts/GothamBold.woff');
+}
+.timsection{
+    overflow: hidden;
+    text-align: center;
+    /* background: #34495e; */
+    padding: 50px; 
+    height: 600px;
+  }
+  .timsection h1{
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 40px
+  }
+  .brdrr{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  background: #FF934F;
+  margin-bottom: 40px;
+  }
+  .pss{
+  margin-bottom: 40px;
+  }
+  .pss a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50%; /* bentuk bulat pada foto */
+  }
+  .pss a img{
+  width: 100%;
+  filter:grayscale(100%);
+  transition: 0.4s all;
+  }
+  .pss a:hover > img{
+  filter:none;
+  }
+  .sectionnn{
+  width: 600px;
+  margin:auto;
+  font-size: 20px;
+  color: #FF934F;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+  }
+  .sectionnn:target{
+  height: auto;
+  }
+  .namename{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: grey;
+  }
